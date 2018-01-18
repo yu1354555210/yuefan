@@ -1,5 +1,5 @@
 var WxParse = require('../../wxParse/wxParse.js')
-var detailAPI = 'https://m.cht.tvhome.com?r=article/info&id=';
+var detailAPI = 'xxxxxxxxxxx';
 Page({
 
 	/**
