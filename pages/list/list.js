@@ -28,7 +28,7 @@ Page({
 		}, 2500);
 
 		wx.request({
-			url: 'https://m.cht.tvhome.com/index.php?r=article/list',
+			url: 'xxxxxxxxxx',
 			data: {
 				page: that.data.page
 			},
@@ -53,7 +53,7 @@ Page({
 			}
 		});
 		wx.request({
-			url: 'https://m.cht.tvhome.com/index.php?r=article/recommend',
+			url: 'xxxxxxxxxxxx',
 			header: {
 				'content-type': 'application/json' // 默认值
 			},
@@ -94,7 +94,7 @@ Page({
 		that.setData({
 			pageFlag: false
 		});
-		let url = 'https://m.cht.tvhome.com/index.php?r=article/list';
+		let url = 'xxxxxxxxxxx';
 
 		wx.request({
 			url: url,
