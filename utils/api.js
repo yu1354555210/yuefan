@@ -1,4 +1,4 @@
-let API_HOST = "https://m.cht.tvhome.com/index.php?r=article/list";
+let API_HOST = "xxxxxxxxxx";
 let DEBUG = true;//切换数据入口
 var Mock = require('mock-min.js')
 function ajax(data = '', fn, method = "get", header = {}) {
